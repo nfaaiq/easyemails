@@ -1,0 +1,255 @@
+2016-10-02 12:18:22 Error: Fatal Error (4): syntax error, unexpected 'funtion' (T_STRING), expecting variable (T_VARIABLE) in [/var/www/html/easyemails/app/Controller/UsersController.php, line 51]
+2016-10-02 12:18:22 Error: [FatalErrorException] syntax error, unexpected 'funtion' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /easyemails/
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 51, Array)
+#2 /var/www/html/easyemails/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 51, Array)
+#3 /var/www/html/easyemails/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-02 12:20:05 Error: [MissingViewException] View file "Users/authenticat.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/authenticat.ctp',
+)
+Request URL: /easyemails/users/authenticat
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/easyemails/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-10-02 12:21:25 Error: [MissingActionException] Action UsersController::authenticat() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'authenticat',
+)
+Request URL: /easyemails/users/authenticat
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-10-02 12:22:11 Error: [MissingViewException] View file "Users/authenticate.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/authenticate.ctp',
+)
+Request URL: /easyemails/users/authenticate
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/easyemails/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-10-02 12:37:57 Error: Fatal Error (1): Call to undefined function data() in [/var/www/html/easyemails/app/Controller/UsersController.php, line 73]
+2016-10-02 12:37:57 Error: [InternalErrorException] Internal Server Error
+Request URL: /easyemails/users/invite
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/e...', 73)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/e...', 73, Array)
+#2 /var/www/html/easyemails/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/e...', 73, Array)
+#3 /var/www/html/easyemails/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-02 12:38:26 Warning: Warning (2): date() expects at least 1 parameter, 0 given in [/var/www/html/easyemails/app/Controller/UsersController.php, line 73]
+Trace:
+date - [internal], line ??
+UsersController::invite() - APP/Controller/UsersController.php, line 73
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
+2016-10-02 12:41:18 Warning: Warning (2): date() expects at least 1 parameter, 0 given in [/var/www/html/easyemails/app/Controller/UsersController.php, line 73]
+Trace:
+date - [internal], line ??
+UsersController::invite() - APP/Controller/UsersController.php, line 73
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
+2016-10-02 12:44:28 Error: [MissingViewException] View file "Users/accept_invite.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/accept_invite.ctp',
+)
+Request URL: /easyemails/users/accept_invite?id=1
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/easyemails/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-10-02 12:57:09 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '',1,'2016-10-02', 1)' at line 3
+Request URL: /easyemails/users/userupdate
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('insert into use...', Array)
+#2 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('insert into use...', Array, Array)
+#3 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(540): DboSource->fetchAll('insert into use...')
+#4 [internal function]: DboSource->query('insert into use...')
+#5 /var/www/html/easyemails/lib/Cake/Model/Model.php(3456): call_user_func_array(Array, Array)
+#6 /var/www/html/easyemails/app/Controller/UsersController.php(113): Model->query('insert into use...')
+#7 [internal function]: UsersController->userupdate()
+#8 /var/www/html/easyemails/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-10-02 12:57:33 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '',1,'2016-10-02', 1)' at line 3
+Request URL: /easyemails/users/userupdate
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('insert into use...', Array)
+#2 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('insert into use...', Array, Array)
+#3 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(540): DboSource->fetchAll('insert into use...')
+#4 [internal function]: DboSource->query('insert into use...')
+#5 /var/www/html/easyemails/lib/Cake/Model/Model.php(3456): call_user_func_array(Array, Array)
+#6 /var/www/html/easyemails/app/Controller/UsersController.php(113): Model->query('insert into use...')
+#7 [internal function]: UsersController->userupdate()
+#8 /var/www/html/easyemails/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-10-02 12:58:34 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '',1,'2016-10-02', 1)' at line 3
+Request URL: /easyemails/users/userupdate
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('insert into use...', Array)
+#2 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('insert into use...', Array, Array)
+#3 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(540): DboSource->fetchAll('insert into use...')
+#4 [internal function]: DboSource->query('insert into use...')
+#5 /var/www/html/easyemails/lib/Cake/Model/Model.php(3456): call_user_func_array(Array, Array)
+#6 /var/www/html/easyemails/app/Controller/UsersController.php(113): Model->query('insert into use...')
+#7 [internal function]: UsersController->userupdate()
+#8 /var/www/html/easyemails/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-10-02 12:59:00 Error: [MissingViewException] View file "Users/userupdate.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/userupdate.ctp',
+)
+Request URL: /easyemails/users/userupdate
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/easyemails/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-10-02 12:59:19 Error: [MissingViewException] View file "Users/userupdate.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/userupdate.ctp',
+)
+Request URL: /easyemails/users/userupdate
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/easyemails/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-10-02 12:59:24 Error: [MissingViewException] View file "Users/userupdate.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/userupdate.ctp',
+)
+Request URL: /easyemails/users/userupdate
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/easyemails/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-10-02 12:59:47 Error: [MissingViewException] View file "Users/userupdate.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/userupdate.ctp',
+)
+Request URL: /easyemails/users/userupdate
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/easyemails/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-10-02 13:00:10 Error: [MissingViewException] View file "Users/userupdate.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/userupdate.ctp',
+)
+Request URL: /easyemails/users/userupdate
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/easyemails/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-10-02 13:00:46 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '',1,'2016-10-02', 1)' at line 3
+Request URL: /easyemails/users/userupdate
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('insert into use...', Array)
+#2 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('insert into use...', Array, Array)
+#3 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(540): DboSource->fetchAll('insert into use...')
+#4 [internal function]: DboSource->query('insert into use...')
+#5 /var/www/html/easyemails/lib/Cake/Model/Model.php(3456): call_user_func_array(Array, Array)
+#6 /var/www/html/easyemails/app/Controller/UsersController.php(115): Model->query('insert into use...')
+#7 [internal function]: UsersController->userupdate()
+#8 /var/www/html/easyemails/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-10-02 13:01:01 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '','1','2016-10-02', '1')' at line 3
+Request URL: /easyemails/users/userupdate
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('insert into use...', Array)
+#2 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('insert into use...', Array, Array)
+#3 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(540): DboSource->fetchAll('insert into use...')
+#4 [internal function]: DboSource->query('insert into use...')
+#5 /var/www/html/easyemails/lib/Cake/Model/Model.php(3456): call_user_func_array(Array, Array)
+#6 /var/www/html/easyemails/app/Controller/UsersController.php(115): Model->query('insert into use...')
+#7 [internal function]: UsersController->userupdate()
+#8 /var/www/html/easyemails/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-10-02 13:02:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'role' in 'field list'
+Request URL: /easyemails/users/userupdate
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('insert into use...', Array)
+#2 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('insert into use...', Array, Array)
+#3 /var/www/html/easyemails/lib/Cake/Model/Datasource/DboSource.php(540): DboSource->fetchAll('insert into use...')
+#4 [internal function]: DboSource->query('insert into use...')
+#5 /var/www/html/easyemails/lib/Cake/Model/Model.php(3456): call_user_func_array(Array, Array)
+#6 /var/www/html/easyemails/app/Controller/UsersController.php(116): Model->query('insert into use...')
+#7 [internal function]: UsersController->userupdate()
+#8 /var/www/html/easyemails/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-10-02 13:11:22 Error: [MissingViewException] View file "Users/authenticate.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/authenticate.ctp',
+)
+Request URL: /easyemails/users/authenticate
+Stack Trace:
+#0 /var/www/html/easyemails/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/easyemails/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/easyemails/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/easyemails/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
